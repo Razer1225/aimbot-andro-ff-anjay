@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aim Booster FF</string>
+
+    <!-- Main menu -->
+    <string name="tagline">Free Fire Aim Assistant</string>
+    <string name="enhanced_aim">Enhanced Aim</string>
+    <string name="boost_aim">Boost Aim</string>
+    <string name="sensitivity_settings">Sensitivity Settings</string>
+    <string name="about_device">About This Device</string>
+
+    <!-- Enhanced Aim -->
+    <string name="enhanced_aim_title">Enhanced Aim</string>
+    <string name="enhanced_aim_desc">Improve your aiming accuracy with advanced targeting techniques. Practice crosshair placement and tracking for better headshots.</string>
+    <string name="crosshair_training">Crosshair Placement Training</string>
+    <string name="tracking_accuracy">Tracking Accuracy</string>
+    <string name="recoil_control">Recoil Control Tips</string>
+
+    <!-- Boost Aim -->
+    <string name="boost_aim_title">Boost Aim</string>
+    <string name="boost_aim_desc">Quick warm-up routines and aim boost recommendations to get your aim ready before matches.</string>
+    <string name="warm_up_routine">Warm-up Routine</string>
+    <string name="aim_preset">Recommended Preset</string>
+
+    <!-- Sensitivity -->
+    <string name="sensitivity_title">Sensitivity Settings</string>
+    <string name="general_sensitivity">General Sensitivity</string>
+    <string name="red_dot">Red Dot</string>
+    <string name="scope_2x">2x Scope</string>
+    <string name="scope_4x">4x Scope</string>
+    <string name="scope_awm">AWM Scope</string>
+    <string name="save_preset">Save Preset</string>
+
+    <!-- About -->
+    <string name="about_title">About This Device</string>
+    <string name="device_model">Device Model</string>
+    <string name="android_version">Android Version</string>
+    <string name="app_version">App Version</string>
+    <string name="processor">Processor</string>
+    <string name="ram">RAM</string>
+    <string name="storage">Storage</string>
+</resources>

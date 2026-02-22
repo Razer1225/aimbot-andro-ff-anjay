@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sensitivity_title"
+            android:textColor="@color/accent"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adjust and copy these values to Free Fire Settings → Sensitivity"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="12dp"
+            app:strokeColor="@color/border_accent"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvGeneral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General Sensitivity: 75"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/sliderGeneral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:value="75"
+                    app:thumbColor="@color/accent"
+                    app:trackColorTint="@color/accent" />
+
+                <TextView
+                    android:id="@+id/tvRedDot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Red Dot: 70"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/sliderRedDot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:value="70"
+                    app:thumbColor="@color/accent"
+                    app:trackColorTint="@color/accent" />
+
+                <TextView
+                    android:id="@+id/tvScope2x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="2x Scope: 60"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/sliderScope2x"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:value="60"
+                    app:thumbColor="@color/accent"
+                    app:trackColorTint="@color/accent" />
+
+                <TextView
+                    android:id="@+id/tvScope4x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="4x Scope: 50"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/sliderScope4x"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:value="50"
+                    app:thumbColor="@color/accent"
+                    app:trackColorTint="@color/accent" />
+
+                <TextView
+                    android:id="@+id/tvAwm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="AWM Scope: 45"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/sliderAwm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:value="45"
+                    app:thumbColor="@color/accent"
+                    app:trackColorTint="@color/accent" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSavePreset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/save_preset"
+                    app:backgroundTint="@color/accent" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

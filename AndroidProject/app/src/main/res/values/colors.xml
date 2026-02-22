@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sci-Fi Black & Red Theme -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary palette -->
+    <color name="primary">#FF1A1A1A</color>
+    <color name="primary_dark">#FF0D0D0D</color>
+    <color name="primary_light">#FF2D2D2D</color>
+
+    <!-- Accent red -->
+    <color name="accent">#FFE53935</color>
+    <color name="accent_bright">#FFFF5252</color>
+    <color name="accent_dark">#FFB71C1C</color>
+
+    <!-- Sci-fi glow -->
+    <color name="glow_red">#33E53935</color>
+    <color name="glow_red_strong">#66E53935</color>
+
+    <!-- UI elements -->
+    <color name="card_background">#FF1E1E1E</color>
+    <color name="surface">#FF141414</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="divider">#33E53935</color>
+    <color name="border_accent">#FFE53935</color>
+</resources>
